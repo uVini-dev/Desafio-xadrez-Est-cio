@@ -8,7 +8,7 @@ int main(){
      while (t <= 5)   // condição para parar de executar o movimento
      {
         printf("Direita\n");  // indica o movimento que a peça irá fazer
-        t++;  // incrementação
+        t++;
      } 
 
    
@@ -19,7 +19,7 @@ int main(){
      do
      {
         printf("Cima Direita\n");   // indica o movimento que a peça irá fazer
-        b++;     // incrementação
+        b++; 
      } while (b <= 5); // condição para parar de executar o movimento
 
 
@@ -27,7 +27,7 @@ int main(){
         printf("\nMovimento da peça rainha:\n");  
         for(int r = 1; r <= 8; r++)  // variavel, condição, incrementação
      {
-            printf("Esquerda\n");  // indica o movimento que a peça irá fazer
+            printf("Esquerda\n");  
      }
 
 
