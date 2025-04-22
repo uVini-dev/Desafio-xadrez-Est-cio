@@ -34,10 +34,10 @@ int main(){
    //movimento do Cavalo, move duas casas para baixo e uma para esquerda, utilizando loop aninhado e estruturas de repetição for e while
 
         printf("\nMovimento da peça cavalo:\n");
-        for (int c = 2, y = 1 ; y <= c; y++)
+        for (int c = 2, y = 1 ; y <= c; y++)   // loop aninhado com multiplas variaveis e condição, e incrementação
         {
-         printf("Cima\n");
-        } printf("Direita\n");
+         printf("Cima\n");   // movimento inicial
+        } printf("Direita\n");  // movimento final
         
 
  return 0;
