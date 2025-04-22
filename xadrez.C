@@ -34,18 +34,11 @@ int main(){
    //movimento do Cavalo, move duas casas para baixo e uma para esquerda, utilizando loop aninhado e estruturas de repetição for e while
 
         printf("\nMovimento da peça cavalo:\n");
-      int c = 1;   // variavel 
-       while (c <= 1)       // estrutura de repetição externa com condição
-       {
-         for (int y = 1; y <= 2; y++)   // estrutura de repetição interna (inclui variavel, condição e incrementação)
-         {
-            printf("Baixo\n");    // movimentos da estrutura interna
-         }
-         printf("Esquerda\n");   // movimento da estrutura externa
-         c++;  // incrementação da estrutura externa
-       }  
-       
-
+        for (int c = 2, y = 1 ; y <= c; y++)
+        {
+         printf("Cima\n");
+        } printf("Direita\n");
+        
 
  return 0;
 
