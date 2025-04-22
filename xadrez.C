@@ -8,7 +8,7 @@ int main(){
      while (t <= 5)   // condição para parar de executar o movimento
      {
         printf("Direita\n");  // indica o movimento que a peça irá fazer
-        t++;
+        t++;  // incrementação
      } 
 
    
@@ -19,7 +19,7 @@ int main(){
      do
      {
         printf("Cima Direita\n");   // indica o movimento que a peça irá fazer
-        b++; 
+        b++;  // incrementação
      } while (b <= 5); // condição para parar de executar o movimento
 
 
@@ -29,6 +29,22 @@ int main(){
      {
             printf("Esquerda\n");  
      }
+
+
+   //movimento do Cavalo, move duas casas para baixo e uma para esquerda, utilizando loop aninhado e estruturas de repetição for e while
+
+        printf("\nMovimento da peça cavalo:\n");
+      int c = 1;   // variavel 
+       while (c <= 1)       // estrutura de repetição externa com condição
+       {
+         for (int y = 1; y <= 2; y++)   // estrutura de repetição interna (inclui variavel, condição e incrementação)
+         {
+            printf("Baixo\n");    // movimentos da estrutura interna
+         }
+         printf("Esquerda\n");   // movimento da estrutura externa
+         c++;  // incrementação da estrutura externa
+       }  
+       
 
 
  return 0;
